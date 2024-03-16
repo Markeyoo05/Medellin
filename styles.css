@@ -1,0 +1,268 @@
+
+.background {
+    
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-image: url('images/medellinMunicipyo.jpg');
+    background-size: cover;
+    z-index: -1;
+    background-position: center;
+    opacity: 0.8; 
+  }
+  
+  
+body {
+  
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; 
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, #2b00ff, #ff0000);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(44, 32, 2, 0.8);
+    z-index: 2;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    transform: translateY(-10px);
+   
+}
+
+
+
+.text-with-image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 20px; 
+}
+
+.text-with-image .homepage {
+    margin-left: 20px;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+.text-with-image .text-container {
+    z-index: 1;
+    padding-left: 70px; 
+}
+
+.text-with-image p {
+    text-align: justify;
+    margin: 20px;
+}
+
+.text1{
+            font-size: 30px;
+            margin: 5px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(238, 255, 0);
+            font-weight: 500;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+        }
+       
+        
+        hr {
+        border: none; 
+        height: 5px; 
+        background-color: #060202; 
+        }
+        .historyText {
+        font-size: 20px;
+        font-family: Garamond, serif;
+        border: 2px solid #ff0000; 
+        padding: 15px; 
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.521); 
+
+    }
+.text-with-image img{
+
+    border-radius: 25px;
+}
+    .text-with-image img:hover {
+        transform: translateY(-20px);
+   
+    }
+    
+footer {
+    color: rgb(0, 0, 0);
+    font-family: "Segoe UI Symbol";
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+
+    align-items: center;
+    height: 50px;
+  }
+/* population code */
+ .text2{
+            font-size: 30px;
+            margin: 5px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(255, 17, 0);
+            font-weight: 500;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+       
+        
+        table {
+            z-index: 1;
+            width: 100%;
+            border-collapse: collapse;
+        }
+         
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th,tr {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5b0;
+        }
+    
+/* products and tourism code */
+        .text3{
+            font-size: 30px;
+            margin: 5px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(68, 255, 0);
+            font-weight: 500;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+        
+        .text4 {
+            font-size: 30px;
+            margin: 5px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(0, 132, 255);
+            font-weight: 500;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+        .box-contain{
+        background-color: rgba(255, 255, 255, 0.532) ;
+        box-shadow: 0 4px 8px rgb(185, 104, 5); 
+        border-radius: 20px;
+        padding: 2px;
+        align-items: center;
+        margin: 10px 20px 0 20px;
+        justify-content: center;
+        }
+        .row {
+        margin-top: 2%;
+        display: flex;
+        height: 88%;
+        align-items: center;
+        margin-left: 10%; 
+
+
+        }
+        .col{
+        flex-basis: 80%;
+        }
+        .row h1{
+        color: antiquewhite;
+
+        }
+        .eventsPicture {
+            padding-left: 20px;
+            padding-right: 20px;
+            justify-content: space-between;
+        }
+        .eventsPicture img {
+            
+            width: 40%; 
+            padding-left: 25px ;
+            transition: transform 0.5s;
+            padding-bottom: 20px;
+        }
+        .eventsPicture img:hover{
+            transform:  translateY(-10px);
+        
+        }
+        .col p{
+            font-size: 18px;
+            
+            text-align: justify;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-right: 20px;
+        }
+/* Services code start here */
+
+ .Pictures {
+            display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        align-items: center;
+        
+    }
+
+    .Picture-Border{
+        flex: 0 0 calc(20% - 30px);
+        width: auto;
+        height: auto;
+        margin: 5px;
+        padding: 5px;
+        margin-bottom: 25px;
+        text-align: center;
+        border: 3px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(62, 36, 1, 0.927);
+        background-color: rgba(255, 255, 255, 0.5); 
+    }
+    .Picture-Border img {
+        width:200px;
+        margin: 10px;
+        height: 150px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        transition: width 0.5s;
+    }   
+    .services{
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 100%;
+    }
+    .description{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+    }
